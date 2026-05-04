@@ -32,7 +32,7 @@ jspm_packages/
 # Environment variables
 .env
 .env.*
-!.env.example
+.env.example
 
 # Build output
 dist/
