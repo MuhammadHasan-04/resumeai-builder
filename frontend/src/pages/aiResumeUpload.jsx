@@ -27,8 +27,15 @@ export const AIResumeUpload = () => {
         state: { parsedResume: result },
       });
     } catch (error) {
-      console.error(error);
-      alert("Failed to parse resume");
+      console.error("Upload error:", error);
+      if (error.response?.status === 401) {
+        alert("Session expired. Please login again.");
+        window.location.href = "/login";
+      } else if (error.response?.data?.message) {
+        alert("Error: " + error.response.data.message);
+      } else {
+        alert("Failed to parse resume. Please try again.");
+      }
     } finally {
       setLoading(false);
     }
