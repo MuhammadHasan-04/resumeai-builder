@@ -1,0 +1,99 @@
+# =========================
+# Node.js / Backend
+# =========================
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Optional: if using nodemon
+nodemon.json
+
+# Optional: local session storage files
+sessions/
+
+# =========================
+# Frontend / React / Next.js / Vite / Svelte / Angular
+# =========================
+# Build output
+.next/
+.out/
+.nuxt/
+.vercel/
+.parcel-cache/
+.vite/
+dist/
+build/
+
+# Storybook
+.out-storybook/
+
+# Svelte / SvelteKit
+.svelte-kit/
+
+# Angular
+.angular/
+
+# Package lock files (optional, but often ignored for personal dev)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# OS / IDE / Temporary
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+tmp/
+temp/
+
+# =========================
+# Testing / Coverage
+# =========================
+jest-cache/
+jest-report/
+coverage/
