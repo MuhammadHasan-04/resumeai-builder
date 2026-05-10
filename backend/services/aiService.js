@@ -72,7 +72,7 @@ Return ONLY JSON.
 
     const stream = await openRouter.chat.send({
       chatGenerationParams: {
-        model: "inclusionai/ling-2.6-1t:free",
+        model: "nvidia/nemotron-3-super-120b-a12b:free",
         messages: [{ role: "user", content: prompt }],
         stream: true,
         max_tokens: 1500,
